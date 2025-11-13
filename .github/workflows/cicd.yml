@@ -24,4 +24,8 @@ jobs:
 
     - name: List Files
       run: |
-       echo "Hello world"
+       ls
+
+    - name: Greet
+      run: |
+        echo "Hello world"
