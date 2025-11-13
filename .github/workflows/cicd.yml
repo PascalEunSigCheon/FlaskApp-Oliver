@@ -29,3 +29,6 @@ jobs:
     - name: Greet
       run: |
         ec "Oliver Bajus"
+    - name: List Files again
+      run: |
+        ls
