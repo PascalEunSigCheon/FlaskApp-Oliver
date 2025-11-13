@@ -28,4 +28,4 @@ jobs:
 
     - name: Greet
       run: |
-        echo "Hello world"
+        ec "Oliver Bajus"
