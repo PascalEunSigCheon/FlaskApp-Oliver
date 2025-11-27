@@ -60,4 +60,4 @@ jobs:
       - name: Build and Push Image
         run: |
           echo ${{ secrets.DOCKER_PASSWORD }}
-          echo ${{ secrets.TEST_VARIABLE }}
+          echo ${{ vars.TEST_VARIABLE }}
