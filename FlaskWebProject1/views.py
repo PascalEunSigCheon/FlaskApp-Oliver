@@ -17,7 +17,7 @@ def home():
     )
 
 @app.route('/pascal')
-def home():
+def pascal():
     return render_template(
         'pascal.html',
         title='Home Page by Pascal',
